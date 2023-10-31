@@ -1,5 +1,106 @@
 <!DOCTYPE html>
 <head>
-    <title></title>
-    
-</head>
+    <title>Lists and Links</title>
+  </head>
+  <body>
+  <h1>Ordered Lists</h1>
+  <p> An ordered list can be numerical or alphabetical.</p>
+<p>type="1"	The list items will be numbered with numbers (default)
+  type="A"	The list items will be numbered with uppercase letters
+  type="a"	The list items will be numbered with lowercase letters
+  type="I"	The list items will be numbered with uppercase roman numbers
+  type="i"	The list items will be numbered with lowercase roman numbers</p>
+<h3>numbers</h3>
+<ol type="1">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+<h3>Uppercase Letters</h3>
+<ol type="A">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+<h3>Lowercase Letters</h3>
+<ol type="a">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+<br>
+<h1>Unordered HTML</h1>
+<p>The list items will be marked with bullets (small black circles) by default</p>
+<h2>Examples</h2>
+<p>disc	Sets the list item marker to a bullet (default)
+  circle	Sets the list item marker to a circle
+  square	Sets the list item marker to a square
+  none	The list items will not be marked</p>
+<h3>Example - Disc</h3>
+<ul style="list-style-type:disc;">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+<h3>Example - Circle</h3>
+<ul style="list-style-type:circle;">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+<h3>Example - Square</h3>
+<ul style="list-style-type:square;">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+<h3>Example - None</h3>
+<ul style="list-style-type:none;">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+<br>
+<h1>Definition Lists</h1>
+<p>The tag defines a description list.
+  The tag is used in conjunction which defines terms/names and dd describes each term/name.</p>
+  <h3>Example</h3>
+    <dl>
+    <dt>Coffee</dt>
+    <dd>Black hot drink</dd>
+    <dt>Milk</dt>
+    <dd>White cold drink</dd>
+  </dl>
+  <br>
+  <h1>Nested List</h1>
+  <p>Lists can be nested (list inside list):</p>
+<ul>
+  <li>Coffee</li>
+  <li>Tea
+    <ul>
+      <li>Black tea</li>
+      <li>Green tea</li>
+    </ul>
+  </li>
+  <li>Milk</li>
+</ul>
+<br>
+<h1>Anchor Tags</h1>
+<p>This tag defines a hyperlink, which is used to link from one page to another.</p>
+<h3>Example</h3>
+<a href="https://www.w3schools.com">Visit W3Schools.com!</a>
+<br>
+<h1>Mailto</h1>
+<p>To create a link that opens in the user's email program (to let them send a new email), use mailto: inside the href attribute</p>
+<p><a href="126rtorres@frhsd.com">Send email</a></p>
+<br>
+<h1>Tel</h1>
+<p>This tag defines a field for enterin a telephone number.</p>
+<h3>Example</h3>
+<p><a href="tel:+4733378901">+47 333 78 901</a></p>
+<h1>Target Attribute</h1>
+<p>The target attribute specifies where to open the linked document.</p>
+<h3>Example</h3>
+<a href="https://www.w3schools.com" target="_blank">Visit W3Schools</a>
+</body>
+
